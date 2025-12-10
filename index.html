@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Caspian Lie — ресторан премиум-класса</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Шрифты -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="social-floating">
+        <a href="https://t.me/yourlink" target="_blank" class="social-btn tg">
+            <i class="fab fa-telegram"></i>
+            <img src="/IMG_6500.jpg" alt="#" style="border-radius: 100%;">
+        </a>
+    
+        <a href="https://instagram.com/yourlink" target="_blank" class="social-btn ig">
+            <i class="instagram"></i>
+            <img src="/IMG_6501.jpg" alt="#" style="border-radius: 100%;">
+        </a>
+    </div>
+    
+
+<div class="page-wrapper">
+
+  <header class="hero" id="home">
+    <div class="hero-bg"></div>
+
+    <nav class="main-nav">
+      <div class="container nav-inner">
+        <div class="logo">Caspian Lie</div>
+
+        <ul class="nav-links">
+          <li><a href="#" class="nav-link">Главная</a></li>
+          <li><a href="/menu.html" class="nav-link">Меню</a></li>
+          <li><a href="#" class="nav-link">Бронь</a></li>
+          <li><a href="#" class="nav-link">Галерея</a></li>
+          <li><a href="#" class="nav-link">FAQ</a></li>
+          <li><a href="#" class="nav-link">Оплата</a></li>
+        </ul>
+
+        <button class="btn btn-gold nav-book" type="button" onclick="scrollToSection('booking')">
+          Забронировать
+        </button>
+      </div>
+    </nav>
+
+    <div class="container hero-content">
+      <h1 class="hero-title">Caspian Lie</h1>
+      <p class="hero-subtitle" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        Искусство вкуса в атмосфере абсолютной роскоши.<br>
+        Где время замирает под звон бокалов.
+      </p>
+
+      <div class="hero-badges">
+        <span>17:00 – 01:00</span>
+        <span>Премиальная кухня</span>
+        <span>Авторские коктейли</span>
+      </div>
+
+      <div class="hero-buttons">
+        <button class="btn btn-gold" type="button" onclick="scrollToSection('booking')">
+          Забронировать стол
+        </button>
+        <button class="btn btn-outline" type="button" onclick="scrollToSection('menu')">
+          Смотреть меню
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="menu" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title" style="font-family: Arial, Helvetica, sans-serif;">Избранное меню</h2>
+            <div class="section-line"></div>
+          </div>
+          <a href="menu.html" class="section-link">Полное меню →</a>
+        </div>
+
+        <div class="cards-grid">
+          <article class="menu-card">
+            <div class="menu-image">
+              <img src="/IMG_6481.jpg" alt="Рибай сухого созревания">
+              <span class="menu-label">Фирменное</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-head">
+                <h3 class="menu-name">Caspian Стейк</h3>
+                <div class="menu-price">4 200 ₽</div>
+              </div>
+              <p class="menu-desc">
+                Мраморная говядина 45 дней выдержки, подается с соусом демиглас и запечённым чесноком.
+              </p>
+              <div class="menu-tags">
+                <span>#мясо</span>
+                <span>#гриль</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-image">
+              <img src="/IMG_6480.jpg" alt="Равиоли с трюфелем">
+              <span class="menu-label">Авторское</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-head">
+                <h3 class="menu-name">Равиоли с трюфелем</h3>
+                <div class="menu-price">1 850 ₽</div>
+              </div>
+              <p class="menu-desc">
+                Домашняя паста с начинкой из рикотты и чёрного трюфеля в сливочном соусе.
+              </p>
+              <div class="menu-tags">
+                <span>#паста</span>
+                <span>#нежно</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-image">
+              <img src="/IMG_6479.jpg" alt="Тартар из тунца">
+              <span class="menu-label">Остро</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-head">
+                <h3 class="menu-name">Тартар из тунца</h3>
+                <div class="menu-price">1 450 ₽</div>
+              </div>
+              <p class="menu-desc">
+                Свежий тунец с авокадо, манго и соусом понзу. Подаётся с чипсами из нори.
+              </p>
+              <div class="menu-tags">
+                <span>#морепродукты</span>
+                <span>#raw</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-image">
+              <img src="https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?q=80&w=800&auto=format&fit=crop" alt="Gold Rush">
+              <span class="menu-label">Коктейль</span>
+            </div>
+            <div class="menu-body">
+              <div class="menu-head">
+                <h3 class="menu-name">Gold Rush</h3>
+                <div class="menu-price">950 ₽</div>
+              </div>
+              <p class="menu-desc">
+                Бурбон, мёд, лимонный сок. Украшен пищевым золотом.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" class="section section-alt">
+      <div class="container booking-grid">
+        <div class="booking-info">
+          <h2 class="section-title" style="font-family: Arial, Helvetica, sans-serif;">Забронировать столик</h2>
+
+          <div class="booking-block">
+            <h4>Dress Code</h4>
+            <p>Smart Casual или Cocktail. Мы просим гостей воздержаться от спортивной одежды.</p>
+          </div>
+
+          <div class="booking-block">
+            <h4>Условия бронирования</h4>
+            <p>Бронь держится 15 минут. Для компаний от 8 человек требуется предварительный заказ.</p>
+          </div>
+
+          <div class="booking-block">
+            <h4>Контакты</h4>
+            <p class="booking-phone">+7 (999) 000-00-00</p>
+            <p>hostess@caspianlie.com</p>
+          </div>
+        </div>
+
+        <form class="booking-form" id="bookingForm">
+          <div class="field-row">
+            <div class="field">
+              <label for="name">Имя</label>
+              <input id="name" type="text" placeholder="Гусейнов Расул" required>
+            </div>
+            <div class="field">
+              <label for="phone">Телефон / Telegram</label>
+              <input id="phone" type="text" placeholder="+7 (___) ___-__-__" required>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="date">Дата</label>
+              <input id="date" type="date" required>
+            </div>
+            <div class="field">
+              <label for="time">Время</label>
+              <select id="time" required>
+                <option>17:00</option>
+                <option>18:00</option>
+                <option>19:00</option>
+                <option>20:00</option>
+                <option>21:00</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="guests">Гостей</label>
+              <input id="guests" type="number" min="1" max="20" value="2">
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Предпочтения</label>
+            <div class="chip-list">
+              <label class="chip-item">
+                <input type="checkbox">
+                <span>У окна</span>
+              </label>
+              <label class="chip-item">
+                <input type="checkbox">
+                <span>Тихий зал</span>
+              </label>
+              <label class="chip-item">
+                <input type="checkbox">
+                <span>У барной стойки</span>
+              </label>
+              <label class="chip-item">
+                <input type="checkbox">
+                <span>VIP-комната</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="comment">Комментарий</label>
+            <textarea id="comment" rows="3" placeholder="Пожелания к столу, аллергии..."></textarea>
+          </div>
+
+          <button class="btn btn-gold btn-full" type="submit">
+            Отправить заявку
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2 class="section-title centered">Атмосфера</h2>
+
+        <div class="gallery-grid">
+          <div class="gallery-item gallery-item-large">
+            <img src="/IMG_6483.png" alt="Основной зал">
+            <span class="gallery-label">Основной зал</span>
+          </div>
+          <div class="gallery-item">
+            <img src="/IMG_6484.png" alt="Барная зона">
+            <span class="gallery-label">Барная зона</span>
+          </div>
+          <div class="gallery-item">
+            <img src="/IMG_6486.png" alt="Для двоих">
+            <span class="gallery-label">Для двоих</span>
+          </div>
+          <div class="gallery-item">
+            <img src="/IMG_6485.png" alt="Детали">
+            <span class="gallery-label">Детали</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-alt">
+      <div class="container faq-container">
+        <h2 class="section-title centered">Частые вопросы</h2>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>
+              <span>Нужна ли предоплата?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <p>
+              Предоплата требуется только для компаний от 8 человек или при бронировании VIP-комнаты. Сумма депозита обсуждается индивидуально.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Можно ли приносить свой торт?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <p>
+              Да, при наличии чека о покупке. Взимается сервисный сбор в размере 500 ₽ за килограмм.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Есть ли парковка?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <p>
+              У нас есть собственный valet-паркинг. Вы можете оставить машину у входа, сотрудник припаркует её.
+            </p>
+          </details>
+
+          <details class="faq-item">
+            <summary>
+              <span>Как перенести бронь?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <p>
+              Изменить время бронирования можно по телефону минимум за 2 часа до визита, при наличии свободных мест.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="payment" class="section">
+      <div class="container payment-grid">
+        <article class="payment-card">
+          <div class="qr-box"></div>
+          <h3>Оплата через приложение</h3>
+          <p>
+            Сканируйте, чтобы разделить счёт с друзьями и оставить чаевые картой.
+          </p>
+          <button class="payment-link" type="button">Как это работает?</button>
+        </article>
+
+        <article class="payment-card">
+          <div class="payment-icons">
+            <span>MIR</span>
+            <span>VISA</span>
+            <span> Pay</span>
+          </div>
+          <h3>Банковские карты</h3>
+          <p>
+            Принимаем все основные виды карт. Бесконтактная оплата доступна.
+          </p>
+
+          <ul class="payment-list">
+            <li>Чек на e-mail или в мессенджер</li>
+            <li>Можно разделить счёт между гостями</li>
+            <li>Принимаем все виды карт</li>
+          </ul>
+          
+          <div class="payment-status">
+            <span class="status-dot"></span>
+            <span class="status-text">Терминал работает</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">Caspian Lie</div>
+      <div class="footer-copy">© 2025 Caspian Lie Restaurant. ItHub</div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="/json.js"></script>
+</body>
+</html>
